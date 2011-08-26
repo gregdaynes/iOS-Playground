@@ -1,0 +1,91 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Magazine</title>
+	
+	<!-- optimized for mobile, zoom/scaling disabled -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />	
+	    
+    <link rel="stylesheet/less" type="text/css" href="../../libs/css/style.less" />
+    <link rel="stylesheet/less" type="text/css" href="./style.less" />
+    
+    
+</head>
+<body>
+	
+	<div id="fixedElement">
+		I don't move
+	</div>
+	
+    <div id="scroll_outer">
+        <div id="scroll_inner">
+            <ul>
+            	<li>List item 1</li>
+            	<li>001
+            	</li>
+            	<li>002
+            	</li>
+            	<li>003
+            	</li>
+            	<li>004
+            	</li>
+            	<li>005
+            	</li>
+            	<li>006
+            	</li>
+            	<li>007
+            	</li>
+            	<li>008
+            	</li>
+            	<li>009
+            	</li>
+            	<li>010
+            	</li>
+            	<li>011
+            	</li>
+            	<li>012
+            	</li>
+            	<li>013
+            	</li>
+            	<li>014
+            	</li>
+            	<li>015
+            	</li>
+            	<li>016
+            	</li>
+            	<li>017
+            	</li>
+            	<li>018
+            	</li>
+            	<li>019
+            	</li>
+            	<li>020
+            	</li>
+            	<li>021
+            	</li>
+            	<li>022
+            	</li>
+            	<li>023
+            	</li>
+            	<li>024
+            	</li>
+            	<li>025
+            	</li>
+        </div>
+    </div>
+    	
+	<script src="../../libs/js/mootools.js"></script>
+	<script src="../../libs/js/less.js"></script>
+	<script src="../../libs/js/iscroll.js"></script>
+	<script>
+	    // disable native scrolling
+	    document.addEventListener('touchmove', function (e) {  e.preventDefault(); }, false);
+	    
+	    var scroll;
+	    window.addEvent('domready', function() {
+	         scroll = new iScroll('scroll_outer');
+	    });
+	</script>
+</body>
+</html>

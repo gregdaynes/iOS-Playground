@@ -1,0 +1,12 @@
+
+.DS_Store
+
+.svn/entries
+
+.svn
+
+.sql
+
+*.esproj
+
+*.jpg
